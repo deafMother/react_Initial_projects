@@ -1,0 +1,31 @@
+{
+  "streams": [
+    {
+      "title": "hello",
+      "description": "world",
+      "id": 1
+    },
+    {
+      "description": "gggool",
+      "title": "kko",
+      "id": 2
+    },
+    {
+      "title": "new ",
+      "description": "fool",
+      "id": 3
+    },
+    {
+      "title": "Trying to edit",
+      "description": "an attempt at change",
+      "userId": "112685570506448137840",
+      "id": 4
+    },
+    {
+      "title": "jhgg",
+      "description": "gjgjh",
+      "userId": "112685570506448137840",
+      "id": 6
+    }
+  ]
+}
