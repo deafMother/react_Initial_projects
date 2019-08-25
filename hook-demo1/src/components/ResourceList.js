@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const useResources = resource => {
   const [resources, setResources] = useState([]);
   // useEffect is called each time the component is rendered
   useEffect(() => {
+    console.log('[UseEffect] fired');
     (async resource => {
       const response = await axios.get(
         `https://jsonplaceholder.typicode.com/${resource}`
@@ -17,6 +18,7 @@ const useResources = resource => {
 };
 
 const ResouceList = ({ resource }) => {
+  console.log('[ResourceList.js] rendered...');
   const resources = useResources(resource);
   return (
     <ul>
